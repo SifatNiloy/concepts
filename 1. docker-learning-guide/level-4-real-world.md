@@ -1,4 +1,4 @@
-# Level 4: Dockerizing Your Next.js App (Beginner Friendly Guide)
+﻿# Level 4: Dockerizing Your Next.js App (Beginner Friendly Guide)
 
 Welcome to Level 4! Up until now, we ran simple Express servers. Now let's tackle a **real-world production framework: Next.js**.
 
@@ -116,7 +116,6 @@ docker run -d -p 3000:3000 --name my-nextjs-site my-nextjs-app
 * `my-nextjs-app`: The image blueprint to run.
 
 ### 3. Open your browser:
-👉 Go to **`http://localhost:3000`**
 
 Your Next.js site is running 100% inside a Docker container! 🎉
 
@@ -256,5 +255,3 @@ docker run -d -p 3000:3000 --env-file .env.local --name my-nextjs-site my-nextjs
 - [ ] I ran the container with port mapping `-p 3000:3000`.
 - [ ] I understand why a multi-stage build makes images much smaller (Kitchen vs Dining Table analogy).
 - [ ] I know how to check logs using `docker logs -f <name>`.
-
-👉 Ready for Level 5? Open `level-5-advanced.md` to learn about **Docker Compose** (running databases and apps together)!
