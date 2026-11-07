@@ -87,7 +87,7 @@ Always use multi-stage builds for production (you learned this in Level 4!)
 
 ```bash
 # Scan images for vulnerabilities
-docker scan my-app
+docker scout my-app
 
 # Don't put secrets in Dockerfiles
 # BAD:
